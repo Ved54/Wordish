@@ -24,7 +24,7 @@ A modern word game built with Flutter, featuring engaging gameplay and beautiful
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/wordish.git
+git clone https://github.com/Ved54/wordish.git
 ```
 
 2. Navigate to the project directory:
@@ -75,4 +75,4 @@ Contributions, issues, and feature requests are welcome! Feel free to check the 
 
 ## 📞 Contact
 
-For any queries or support, please reach out to [vedant.vaidya24@spit.ac.in]
+For any queries or support, please reach out to vedant.vaidya24@spit.ac.in

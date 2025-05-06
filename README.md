@@ -1,16 +1,78 @@
-# wordish
+# Wordish
 
-A new Flutter project.
+A modern word game built with Flutter, featuring engaging gameplay and beautiful animations.
 
-## Getting Started
+## 🎮 Features
 
-This project is a starting point for a Flutter application.
+- Interactive word gameplay
+- Beautiful animations using Lottie
+- Sound effects using AudioPlayers
+- Firebase integration for authentication and data storage
+- Modern UI with Google Fonts
+- Smooth animations with Flutter Animate
 
-A few resources to get you started if this is your first Flutter project:
+## 🚀 Getting Started
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### Prerequisites
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Flutter SDK (^3.7.2)
+- Dart SDK
+- Firebase project setup
+- Android Studio / Xcode (for mobile development)
+
+### Installation
+
+1. Clone the repository:
+```bash
+git clone https://github.com/yourusername/wordish.git
+```
+
+2. Navigate to the project directory:
+```bash
+cd wordish
+```
+
+3. Install dependencies:
+```bash
+flutter pub get
+```
+
+4. Configure Firebase:
+   - Add your Firebase configuration files
+   - Enable Authentication and Firestore in Firebase Console
+
+5. Run the app:
+```bash
+flutter run
+```
+
+## 🛠️ Dependencies
+
+- `firebase_auth: ^5.5.3` - Firebase Authentication
+- `firebase_core: ^3.13.0` - Firebase Core
+- `cloud_firestore: ^5.6.7` - Cloud Firestore
+- `audioplayers: ^5.2.1` - Audio playback
+- `lottie: ^3.0.0` - Lottie animations
+- `google_fonts: ^6.1.0` - Google Fonts
+- `flutter_animate: ^4.5.0` - Flutter animations
+
+## 📱 Platform Support
+
+- iOS
+- Android
+
+## 🔧 Development
+
+This project uses Flutter's latest features and follows best practices for mobile app development. The codebase is structured for maintainability and scalability.
+
+## 📄 License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome! Feel free to check the issues page.
+
+## 📞 Contact
+
+For any queries or support, please reach out to [your-email@example.com]

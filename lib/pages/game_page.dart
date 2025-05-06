@@ -70,7 +70,7 @@ class _GamePageState extends State<GamePage> {
               availableWords.length];
     });
 
-    print("Target Word is : ${_targetWord }");
+    print("Target Word is : ${_targetWord}");
   }
 
   Future<void> _resetSolvedWords() async {
@@ -320,7 +320,6 @@ class _GamePageState extends State<GamePage> {
       appBar: AppBar(
         title: const Text('Wordish'),
         actions: [
-          
           if (_userData != null)
             Padding(
               padding: const EdgeInsets.all(8.0),
@@ -351,17 +350,17 @@ class _GamePageState extends State<GamePage> {
                       foregroundColor: Colors.white,
                     ),
                   ),
-                  SizedBox(width: 20,),
+                  SizedBox(width: 20),
                   IconButton(
-            icon: const Icon(Icons.help_outline),
-            onPressed: () {
-              _soundService.playSound('click');
-              showDialog(
-                context: context,
-                builder: (context) => const HowToPlayPopup(),
-              );
-            },
-          ),
+                    icon: const Icon(Icons.help_outline),
+                    onPressed: () {
+                      _soundService.playSound('click');
+                      showDialog(
+                        context: context,
+                        builder: (context) => const HowToPlayPopup(),
+                      );
+                    },
+                  ),
                 ],
               ),
             ),

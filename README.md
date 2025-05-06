@@ -75,4 +75,4 @@ Contributions, issues, and feature requests are welcome! Feel free to check the 
 
 ## 📞 Contact
 
-For any queries or support, please reach out to [your-email@example.com]
+For any queries or support, please reach out to [vedant.vaidya24@spit.ac.in]
